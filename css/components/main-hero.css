@@ -1,0 +1,54 @@
+.main-hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: inline-block;
+    width: 490px;
+    margin-top: 100px;
+
+
+}
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; 
+    margin-top: 40px;
+
+}
+
+.image{
+    display: inline-flex;
+    align-items: center;
+    width: 550px;
+    height: 420px;
+    margin-top: 100px;    
+    vertical-align: middle;
+
+    background-image: url('../../assets/img/bg_destaque.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.box{
+    display: inline-block;    
+    background-color: #fff;
+    padding: 20px 30px;
+    font-weight: 600;
+    font-size: 24px;
+    border-radius: 42px;   
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);        
+}
+.box.-locTopLeft{
+    transform: translateY(-120px) translateX(-20px);       
+}
+.box.-locTopRigth{
+    transform: translateY(-60px) translateX(180px);   
+}
+.box.-locBottomLeft{
+    transform: translateY(200px) translateX(-220px);   
+}

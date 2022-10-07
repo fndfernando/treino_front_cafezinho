@@ -1,7 +1,11 @@
-header{
+.center{
+    width: 70%;
+    margin: 0 auto ;    
+}
+.flex{
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 
 a{
@@ -9,5 +13,31 @@ a{
     font-weight: 400;
     font-size: 18px;
     display: inline-flex;
+    text-decoration: none;
+    color: #000;
 
+}
+
+a:hover{
+    color: #FF902A;
+}
+
+h1{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #7E7D7A;
+    margin-bottom: 20px;
+}
+
+b{
+   color: #FF902A;; 
 }

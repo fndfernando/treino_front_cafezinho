@@ -1,0 +1,22 @@
+.main-button{
+    display: inline-flex;
+    background-color: #2F2105;
+    padding: 12px 35px;
+    width: 100px;
+    
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.main-button:hover{
+    transform: scale(1.08);
+    color: #fff;
+
+}
+
+.main-button .icon{
+    margin-left: 20px;
+
+}
