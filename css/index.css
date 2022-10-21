@@ -20,6 +20,8 @@ a{
 
 a:hover{
     color: #FF902A;
+    transform: scale(1.1);
+    
 }
 
 h1{

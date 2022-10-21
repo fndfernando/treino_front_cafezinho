@@ -3,20 +3,6 @@
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #F7EBDA;
-    height: 970px;
+    height: 620px;
 }
 
-.hero{
-    display: flex;
-    justify-content: space-around;
-}
-
-.content-hero{
-    display: inline-block;
-    width: 490px;
-    margin-top: 100px;
-
-}
-.img-hero{
-    display: inline-block;
-}
