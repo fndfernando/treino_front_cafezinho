@@ -1,0 +1,29 @@
+.main-aboutus{
+    background-image: url('../../assets/img/bg_abou_us.png');
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+}
+
+.main-aboutus .wrapper{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.main-aboutus .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 478px;
+}
+
+.main-aboutus h1{
+    font-size: 32px;
+}
+
+.main-aboutus .text{
+    font-size: 18px;
+    color: #7E7D7A;
+    
+    
+}
