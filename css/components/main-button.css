@@ -9,6 +9,9 @@
     font-size: 14px;
     border-radius: 20px;
 }
+.main-button.-txtActive{
+    color: #F4AE26;
+}
 
 .main-button:hover{
     transform: scale(1.08);
