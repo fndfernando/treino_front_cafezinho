@@ -16,16 +16,18 @@
         <link rel="stylesheet" href="css/components/main-header.css">
         <link rel="stylesheet" href="css/components/main-button.css">
         <link rel="stylesheet" href="css/components/main-hero.css"> 
+        <link rel="stylesheet" href="css/components/main-popular.css">
+        <link rel="stylesheet" href="css/components/main-delivery.css">
 
     </head>
     <body>
         <section class="wrapper-banner">
             <header class="main-header center">
-                <img src="assets/img/logo_coffe.svg" alt="logo Cafezinho">
+                <img src="assets/img/logo_coffe.png" alt="logo Cafezinho">
                 <nav class="main-menu">
                     <a href="" class="action">Sobre</a>
                     <a href="" class="action">Nossos Produtos</a>
-                    <a href="" class="action" lang="en">Delivery</a>
+                    <a href="#delivery" class="action" lang="en">Delivery</a>
                 </nav>
                 <img src="assets/img/icons_cart.png" alt="Carrinho de compra">
             </header>
@@ -46,6 +48,69 @@
 
             </section>
         </section>
+        <section id="popular" class="main-popular">
+            <div class="center">
+                <h1 class="title">Mais Pedidos</h1>
+
+                <div class="cards">
+                    <figure class="card">
+                        <img src="assets/img/vanilla_latte.png" alt="café Vanilla Latte" class="photo">
+                        <figurecaption class="card_subtitle">                        
+                            <h2>Vanilla Latte</h2>
+                            <h2>21 K</h2>                                                            
+                        </figurecaption> 
+                        <form class="card_subtitle">
+                            <input type="radio" name="a" value="hot"><label>Hot</label>
+                            <input type="radio" name="a" value="cold"><label>Cold</label>
+                            <button><img src="assets/img/icon_cart_2.png" alt="carrinho de compra"></button>                            
+                        </form>  
+                    </figure>
+                    <figure class="card">
+                        <img src="assets/img/espresso.png" alt="café espresso" class="photo">
+                        <figurecaption>
+                            <h2>Espresso</h2>
+                            <h2>12K</h2>
+                        </figurecaption>                    
+                    </figure>                
+                    <figure class="card">
+                        <img src="assets/img/hazelnut_latte.png" alt="café hazelnut latte" class="photo">
+                        <figurecaption>
+                            
+                            <h2>Hazenut Latte</h2>
+                            <h2>23K</h2>
+                        </figurecaption>                    
+                    </figure>                 
+                </div>
+            </div>            
+        </section>
+
+        <section id="delivery" class="main-delivery center">
+            <h1>Como usar nosso serviço de Delivery</h1>
+            <div class="cards">
+                <figure class="card">
+                    <img src="assets/img/delivery_choose.png" alt="escolha xicara de café" class="photo">
+                    <figurecaption class="card_subtitle">
+                        <h2>Escolha seu café</h2>
+                        <h3>20+ opções de café</h3>
+                    </figurecaption>
+                </figure>
+                <figure class="card">
+                    <img src="assets/img/delivery_truck.png" alt="caminhão de entrega" class="photo">
+                    <figurecaption class="card_subtitle">
+                        <h2>Nós levamos até você</h2>
+                        <h3>Escolha serviço de entrega</h3>
+                    </figurecaption>
+                </figure>
+                <figure class="card">
+                    <img src="assets/img/delivery_coffee.png" alt="xicara de café" class="photo">
+                    <figurecaption class="card_subtitle">
+                        <h2>Receba seu café</h2>
+                        <h3>Aproveite seu café da melhor forma</h3>
+                    </figurecaption>
+                </figure>
+            </div>
+        </section>
+        
 
     </body>
 </html>
