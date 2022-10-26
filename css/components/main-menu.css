@@ -1,7 +1,14 @@
 .main-menu{
-    
+    display: block;
+    margin-top: 120px;
 }
 
-.main-menu .action{
-    margin-left: 20px;
+.main-menu h1{
+    font-size: 32px;
+}
+
+.main-menu .wrapper{
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap:wrap;
 }

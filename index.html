@@ -11,23 +11,24 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/index.css">
-        <link rel="stylesheet" href="css/components/wrapper-banner.css">        
-        <link rel="stylesheet" href="css/components/main-menu.css">
+        <link rel="stylesheet" href="css/components/wrapper-banner.css">                
         <link rel="stylesheet" href="css/components/main-header.css">
         <link rel="stylesheet" href="css/components/main-button.css">
         <link rel="stylesheet" href="css/components/main-hero.css"> 
         <link rel="stylesheet" href="css/components/main-popular.css">
+        <link rel="stylesheet" href="css/components/main-card.css">
         <link rel="stylesheet" href="css/components/main-delivery.css">
         <link rel="stylesheet" href="css/components/main-aboutus.css">
+        <link rel="stylesheet" href="css/components/main-menu.css">
 
     </head>
     <body>
         <section class="wrapper-banner">
             <header class="main-header center">
                 <img src="assets/img/logo_coffe.png" alt="logo Cafezinho">
-                <nav class="main-menu">
-                    <a href="" class="action">Sobre</a>
-                    <a href="" class="action">Nossos Produtos</a>
+                <nav >
+                    <a href="#aboutus" class="action">Sobre</a>
+                    <a href="#menu" class="action">Nossos Produtos</a>
                     <a href="#delivery" class="action" lang="en">Delivery</a>
                 </nav>
                 <img src="assets/img/icons_cart.png" alt="Carrinho de compra">
@@ -53,30 +54,29 @@
             <div class="center">
                 <h1 class="title">Mais Pedidos</h1>
 
-                <div class="cards">
-                    <figure class="card">
+                <div class="wrapper">
+                    <figure class="main-card">
                         <img src="assets/img/vanilla_latte.png" alt="café Vanilla Latte" class="photo">
-                        <figurecaption class="card_subtitle">                        
+                        <figurecaption class="subtitle">                        
                             <h2>Vanilla Latte</h2>
                             <h2>21 K</h2>                                                            
                         </figurecaption> 
-                        <form class="card_subtitle">
+                        <form class="subtitle">
                             <input type="radio" name="a" value="hot"><label>Hot</label>
                             <input type="radio" name="a" value="cold"><label>Cold</label>
                             <button><img src="assets/img/icon_cart_2.png" alt="carrinho de compra"></button>                            
                         </form>  
                     </figure>
-                    <figure class="card">
+                    <figure class="main-card">
                         <img src="assets/img/espresso.png" alt="café espresso" class="photo">
-                        <figurecaption>
+                        <figurecaption class="subtitle">
                             <h2>Espresso</h2>
                             <h2>12K</h2>
                         </figurecaption>                    
                     </figure>                
-                    <figure class="card">
+                    <figure class="main-card">
                         <img src="assets/img/hazelnut_latte.png" alt="café hazelnut latte" class="photo">
-                        <figurecaption>
-                            
+                        <figurecaption class="subtitle">                            
                             <h2>Hazenut Latte</h2>
                             <h2>23K</h2>
                         </figurecaption>                    
@@ -87,24 +87,24 @@
 
         <section id="delivery" class="main-delivery center">
             <h1>Como usar nosso serviço de Delivery</h1>
-            <div class="cards">
+            <div class="wrapper">
                 <figure class="card">
-                    <img src="assets/img/delivery_choose.png" alt="escolha xicara de café" class="photo">
-                    <figurecaption class="card_subtitle">
+                    <img src="assets/img/delivery_choose.png" alt="escolha xicara de café">
+                    <figurecaption>
                         <h2>Escolha seu café</h2>
                         <h3>20+ opções de café</h3>
                     </figurecaption>
                 </figure>
                 <figure class="card">
-                    <img src="assets/img/delivery_truck.png" alt="caminhão de entrega" class="photo">
-                    <figurecaption class="card_subtitle">
+                    <img src="assets/img/delivery_truck.png" alt="caminhão de entrega">
+                    <figurecaption>
                         <h2>Nós levamos até você</h2>
                         <h3>Escolha serviço de entrega</h3>
                     </figurecaption>
                 </figure>
                 <figure class="card">
-                    <img src="assets/img/delivery_coffee.png" alt="xicara de café" class="photo">
-                    <figurecaption class="card_subtitle">
+                    <img src="assets/img/delivery_coffee.png" alt="xicara de café">
+                    <figurecaption>
                         <h2>Receba seu café</h2>
                         <h3>Aproveite seu café da melhor forma</h3>
                     </figurecaption>
@@ -112,18 +112,97 @@
             </div>
         </section>
 
-        <section class="main-aboutus">
+        <section id="aboutus" class="main-aboutus">
             <div class="wrapper center">
                 <img src="assets/img/about_us.png" alt="Café Latte Flor sobre uma mesa">
                 <div class="content">
                     <h1>Sobre</h1>
                     <h2>Nós oferecemos qualidade em café e estamos pronto para levar até você</h2>
                     <p class="text">Somos uma empresa que fabrica e distribui deliciosas bebidas. Nosso principal produto é feito com receita secreta e disponível nas lojas bem perto de você.</p>
-                    <a class="main-button -txtActive">Quero Café</a>
+                    <span>
+                        <a href="#menu" class="main-button -txtActive">Menu</a>
+                    </span>
                 </div>
             </div>    
         </section>
+
+        <section id="menu" class="main-menu center">
+            <h1>Menu exclusivo</h1>
+            <div class="wrapper">
+                <figure class="main-card -shadow">
+                    <img src="assets/img/sandwich.png" alt="sandwich pão de forma">
+                    <figurecaption class="subtitle">
+                        <h2>Sandwich</h2>
+                        <h2>12 k</h2>                       
+                    </figurecaption>
+                    <form class="text">
+                        <h3>pão de forma com presunto e salada</h3>
+                        <img src="assets/img/icon_cart_3.png" alt="carrinho de compra">
+                    </form>                    
+                </figure>
+                <figure class="main-card -shadow">
+                    <img src="assets/img/hot_milk.png" alt="xicara com café com leite">
+                    <figurecaption class="subtitle">
+                        <h2>Café com leite</h2>
+                        <h2>12 k</h2>
+                    </figurecaption>
+                    <form class="text">
+                        <h3>Café com Leite decorado com calda de chocolate</h3>
+                        <img src="assets/img/icon_cart_3.png" alt="carrinho de compra">
+                    </form>                      
+                </figure>  
+                <figure class="main-card -shadow">
+                    <img src="assets/img/coffee_ice_cream.png" alt="caneca leite com sorvete">
+                    <figurecaption class="subtitle">
+                        <h2>Café com Sorvete</h2>
+                        <h2>12 k</h2>
+                    </figurecaption>
+                    <form class="text">
+                        <h3>Café com sorvete de baunilha</h3>
+                        <img src="assets/img/icon_cart_3.png" alt="carrinho de compra">
+                    </form>                      
+                </figure>     
+                <figure class="main-card -shadow">
+                    <img src="assets/img/cappucino.png" alt="caneca com cappucino">
+                    <figurecaption class="subtitle">
+                        <h2>Cappucino</h2>
+                        <h3>12 k</h3>
+                    </figurecaption>
+                    <form class="text">
+                        <h3>Cappucino quente</h3>
+                        <img src="assets/img/icon_cart_3.png" alt="carrinho de compra">
+                    </form>                    
+                </figure>    
+                <figure class="main-card -shadow">
+                    <img src="assets/img/moccacino.png" alt="caneca com moccacinno">
+                    <figurecaption class="subtitle">
+                        <h2>Moccacinno</h2>
+                        <h2>12 k</h2>
+                    </figurecaption>
+                    <form class="text">
+                        <h3>Moccacino quente</h3>
+                        <img src="assets/img/icon_cart_3.png" alt="carrinho de compra">
+                    </form>                       
+                </figure>  
+    
+                <figure class="main-card -shadow">
+                    <img src="assets/img/waffle_ice_cream.png" alt="waffle com sorvete">
+                    <figurecaption class="subtitle">
+                        <h2>Waffle com Sorvete</h2>
+                        <h2>12 k</h2>
+                    </figurecaption>
+                    <form class="text">
+                        <h3>Wafle com sorvete de baunilha</h3>
+                        <img src="assets/img/icon_cart_3.png" alt="carrinho de compra">
+                    </form>                       
+                </figure>                
+                
+            </div>    
+        </section>        
         
 
+      
+          
+ 
     </body>
 </html>
