@@ -3,7 +3,7 @@
     margin-bottom: 120px;
 }
 
-.main-delivery .cards{
+.main-delivery .wrapper{
 
     display: flex;
     justify-content: space-evenly;
@@ -16,9 +16,3 @@
     align-items: center;
 }
 
-.main-delivery .card_subtitle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
