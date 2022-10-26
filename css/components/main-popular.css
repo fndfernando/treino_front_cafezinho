@@ -10,7 +10,7 @@
     font-weight: 600;        
 }
 
-.main-popular .cards{
+.main-popular .wrapper{
 
     display: flex;
     justify-content: space-evenly;
@@ -18,30 +18,5 @@
     background-repeat: no-repeat;
     background-position: bottom;    
     height: 458px;
-
-}
-
-.main-popular .card{
-    position: relative;
-    display: inline-flex;
-    flex-direction: column;
-    background-color: #fff; 
-    
-    padding: 24px 18px;
-    margin-bottom: 100px;
-    border-radius: 10px;   
-    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);        
-}
-
-.main-popular .photo{
-    border-radius: 10px;   
-}
-
-.main-popular .card_subtitle{
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    font-size: 16px;
-    margin-top: 15px;
 
 }

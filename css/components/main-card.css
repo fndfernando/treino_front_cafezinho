@@ -1,0 +1,35 @@
+.main-card{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: #fff; 
+    max-width: 320px;
+    
+    padding: 24px 18px;
+    margin-bottom: 100px;
+    border-radius: 10px;   
+    box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.3);        
+}
+
+.main-card.-shadow{
+    box-shadow: 0px 0px 16px 0px rgb(168, 168, 168)
+}
+
+.main-card .photo{
+    border-radius: 10px;   
+}
+
+.main-card .subtitle{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 16px;
+    margin-top: 15px;
+
+}
+
+.main-card .text{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
