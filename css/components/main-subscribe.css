@@ -21,12 +21,11 @@
     font-size: 32px;
 }
 
-
-.custom-search {
+.main-subscribe .wrapper-input {
     position: relative;
     width: 50%
   }
-  .custom-search-input {
+.main-subscribe .custom-input {
     width: 100%;
     height: 54px;
     border: 1px solid #ccc;
@@ -36,18 +35,20 @@
     box-sizing: border-box;
     outline: none;
     font-family: 'Poppins',sans-serif;
-  }
-  .custom-search-botton {
+}
+.main-subscribe .custom-botton {
     position: absolute;
     right: 3px; 
     top: 3px;
     bottom: 3px;
     border: 0;
+    height: 48px;
     background: #2F2105;
     color: #fff;
     outline: none;
     margin: 0;
-    padding: 0 30px;
+    padding: 10px 50px;
     border-radius: 100px;
     z-index: 2;
-  }
+    cursor: pointer;
+}
